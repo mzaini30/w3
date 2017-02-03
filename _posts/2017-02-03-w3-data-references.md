@@ -8,7 +8,7 @@ date: 2017-02-03 14:13:00
 ```html
 <!DOCTYPE html>
 <html>
-<scriptsrc="http://www.w3schools.com/lib/w3data.js"></script>
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
 <body>
 
 <div id="id01">
@@ -27,7 +27,7 @@ w3DisplayData("id01", {"firstName" : "John","lastName" : "Doe"});
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet"href="http://www.w3schools.com/lib/w3.css">
-<scriptsrc="http://www.w3schools.com/lib/w3data.js"></script>
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
 <body>
 
 <table id="id01" class="w3-table w3-bordered w3-striped">
@@ -59,7 +59,7 @@ w3Http("customers.php", function () {
 ```html
 <!DOCTYPE html>
 <html>
-<scriptsrc="http://www.w3schools.com/lib/w3data.js"></script>
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
 <body>
 
 <div w3-include-HTML="h1.html"></div>
