@@ -9,6 +9,7 @@ email: muhzaini30@gmail.com
 
 highlighter: rouge
 markdown: kramdown
+encoding: utf-8
 ### exclude the instructions / write-up in the README.md
 
 
