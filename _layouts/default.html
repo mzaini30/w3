@@ -18,9 +18,17 @@ layout: compress
       <a href="{{site.baseurl}}/"><div class="home"></div></a>
   </header>
 
+<div class="cari" style="align: center;">
+    {% include cari.html %}
+</div>
+
   {{ content }}
 
 <footer>
+
+<div class="cari" style="align: center;">
+    {% include cari.html %}
+</div>
 
     <div class="links">
     <!--
@@ -28,7 +36,7 @@ layout: compress
         <a href="{{site.baseurl}}/contact/">Contact</a>
     -->
         <a href="https://github.com/mzaini30/w3/new/gh-pages/_posts">new post</a>
-        <a href="https://github.com/mzaini30/w3/edit/gh-pages/{{ page.path }}">edit post</a>
+        <a href="https://github.com/mzaini30/w3/edit/gh-pages/{{ post.path }}">edit post</a>
     </div>
     <div class="theme" onclick="theme()" style="    background-image: url({{site.baseurl}}/images/theme.svg)"></div>
 </footer>
