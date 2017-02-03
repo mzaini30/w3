@@ -10,8 +10,8 @@ content.html
 ```html
 <a href="http://www.w3schools.com/html/">HTML</a><br>
 <a href="http://www.w3schools.com/css/">CSS</a><br>
-<ahref="http://www.w3schools.com/bootstrap/">Bootstrap</a><br>
-<ahref="http://www.w3schools.com/js/">JavaScript</a><br>
+<a href="http://www.w3schools.com/bootstrap/">Bootstrap</a><br>
+<a href="http://www.w3schools.com/js/">JavaScript</a><br>
 <a href="http://www.w3schools.com/sql/">SQL</a><br>
 <a href="http://www.w3schools.com/php/">PHP</a><br>
 <a href="http://www.w3schools.com/w3css/">W3.CSS</a><br>
@@ -30,7 +30,7 @@ w3IncludeHTML();
 ```html
 <!DOCTYPE html>
 <html>
-<scriptsrc="http://www.w3schools.com/lib/w3data.js"></script>
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
 <body>
 
 <div w3-include-html="content.html"></div>
@@ -46,7 +46,7 @@ w3IncludeHTML();
 ```html
 <!DOCTYPE html>
 <html>
-<scriptsrc="http://www.w3schools.com/lib/w3data.js"></script>
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
 <body>
 
 <div w3-include-HTML="h1.html"></div>
