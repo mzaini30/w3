@@ -1,1 +1,1 @@
-document.writeln("Hello world")
+sha = "grvzggsvdvvsgdggs"
